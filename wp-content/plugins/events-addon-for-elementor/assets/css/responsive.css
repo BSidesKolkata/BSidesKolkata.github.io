@@ -1,0 +1,343 @@
+/**
+ * Events Addon for Elementor Styling
+*/
+
+@media screen and (max-width:1415px) {
+	.banner-container {
+	  padding-right: 100px;
+	  padding-left: 100px;
+	}
+}
+@media screen and (max-width:1310px) {
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+	  position: absolute;
+	  top: auto;
+	  bottom: 0;
+	  left: auto;
+	  right: 50px;
+	}
+	.owl-carousel .owl-nav button.owl-next {
+	  left: auto;
+	  right: 0;
+	}
+	.naeep-history-wrap .owl-carousel .owl-nav button.owl-next,
+	.naeep-history-wrap .owl-carousel .owl-nav button.owl-prev {
+	  bottom: -20px;
+	}
+}
+@media screen and (min-width:1270px) {
+	.naeep-history-wrap.history-two.history-three,
+	.naeep-testimonials {
+	  width: 100%;
+	  min-width: 1140px;
+	}
+}
+@media screen and (max-width:1199px) {
+	.naeep-organizer,
+	.naeep-conference,
+	.naeep-upcoming,
+	.naeep-schedule,
+	.naeep-sessions {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+	.banner-caption h1 {
+    font-size: 42px;
+	}
+	.banner-caption p {
+    font-size: 18px;
+    line-height: 30px;
+	}
+	.banner-container {
+	  max-width: 900px;
+	}
+}
+@media screen and (max-width:991px) {
+	.naeep-history-wrap.history-two .naeep-history-item {
+	  -ms-flex: 0 0 50%;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	  margin-bottom: 30px;
+	}
+	.naeep-process-item-vertical .vertical-info,
+	.naeep-process-item-vertical .naeep-image,
+	.naeep-history-item .history-info,
+	.naeep-history-item .history-image {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	  padding: 0 15px;
+	}
+	.naeep-process-item-vertical:nth-child(odd) .vertical-info,
+	.naeep-history-item:nth-child(odd) .history-info {
+	  padding-right: 15px;
+	  text-align: left;
+	}
+	.naeep-process-item-vertical:nth-child(odd) .naeep-image,
+	.naeep-history-item:nth-child(odd) .history-image {
+	  padding-left: 15px;
+	}
+	.naeep-process-item-vertical:nth-child(even) .naeep-image,
+	.naeep-history-item:nth-child(even) .history-image {
+	  padding-right: 15px;
+	  text-align: left;
+	  -ms-flex-order: 1;
+	  order: 2;
+	}
+	.naeep-process-item-vertical:nth-child(even) .vertical-info,
+	.naeep-history-item:nth-child(even) .history-info {
+	  padding-left: 15px;
+	  text-align: left;
+	  -ms-flex-order: 2;
+	  order: 1;
+	}
+	.naeep-history-item {
+	  padding-left: 30px;
+	}
+	.naeep-history-item span,
+	.naeep-history-item span:before,
+	.naeep-history-item span:after {
+	  right: auto;
+    top: 0px;
+	}
+	.naeep-history-wrap:before {
+	  left: 15px;
+	  right: auto;
+	}
+	.naeep-history-item {
+	  padding: 0 0 50px 30px;
+	}
+	.naeep-history-item .history-info span {
+	  left: 11px;
+	}
+	.naeep-history-item .history-info {
+	  padding-bottom: 20px;
+	}
+	.history-vertical .naeep-history-item .history-info {
+		padding-top: 20px;
+		margin-bottom: 15px;
+	}
+	.history-vertical .naeep-history-item:nth-child(odd) .history-info {
+    margin-left: 45px;
+    border-left: 3px solid #ed366d;
+    border-radius: 0 10px 10px 0;
+    border-right: none;
+    text-align: left;
+    width: 90%;
+		flex: 0 0 90%;
+		padding-left: 45px;
+	}
+	.history-vertical .naeep-history-item:nth-child(even) .history-info {
+		width: 90%;
+		flex: 0 0 90%;
+	}
+	.naeep-masonry[data-items="3"] .masonry-item,
+	.naeep-masonry[data-items="4"] .masonry-item,
+	.masonry-item.one-third,
+	.masonry-item.one-fourth,
+	.masonry-item.one-fourth-two,
+	.masonry-item.one-third-two,
+	.masonry-item.one-half,
+	.masonry-item.one-half-two,
+	.masonry-item.full-width {
+	  width: 50%;
+	}
+	.process-info {
+	  max-width: 132px;
+	  margin: 0 auto;
+	}
+	.naeep-process-item {
+	  padding: 15px;
+	  width: 50%;
+	}
+	.naeep-process-item:after,
+	.naeep-process-item:before,
+	.border-style.naeep-process-item:before {
+		content: none;
+	}
+	.process-number-item {
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+	.naeep-process-wrap.style-three {
+	  padding-left: 40px;
+	}
+	.naeep-process-wrap.style-three:before {
+	  left: 15px;
+	  right: auto;
+	}
+	.naeep-process-wrap.style-three {
+	  padding-left: 30px;
+	}
+	.naeep-process-item-vertical:before,
+	.naeep-process-item-vertical:after {
+	  right: auto;
+	  left: -7px;
+	}
+	.naeep-team-single-item .single-mate-image,
+	.naeep-team-single-item .single-mate-info {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.naeep-team-single-item .single-mate-info {
+	  padding-top: 40px;
+	  text-align: center;
+	}
+	.naeep-aboutus-item .aboutus-image,
+	.naeep-aboutus-item .aboutus-info,
+	.naeep-aboutme-item .aboutme-image,
+	.naeep-aboutme-item .aboutme-info {
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.col-na-1,
+	.col-na-2,
+	.col-na-3,
+	.col-na-4,
+	.col-na-5,
+	.col-na-6,
+	.col-na-7,
+	.col-na-8,
+	.col-na-9,
+	.col-na-10,
+	.col-na-11 {
+	  -ms-flex: 0 0 50%;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+	.naeep-schedule-list .col-na-2 {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.naeep-schedule-list .col-na-10 {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.schedule-image .naeep-image {
+	  max-width: 200px;
+	  margin: 0 auto;
+	  padding: 0 0 30px;
+	}
+	.schedule-content {
+	  text-align: center;
+	}
+	.schedule-content ul li {
+	  float: none;
+	  display: inline-block;
+	}
+	.naeep-tab-links li {
+	  margin: 5px !important;
+	}
+	.naeep-tab-links a {
+		border-right: 1px solid #d8e1f5;
+	}
+	.naeep-tab-links a:after {
+		content: none;
+	}
+	.naeep-team-item {
+	  max-width: 400px;
+	  margin: 0 auto;
+	}
+	.naeep-swiper-slide.swiper-container {
+    height: auto;
+    min-height: auto;
+  }
+	.naeep-swiper-slide.swiper-container .swiper-button-prev,
+  .naeep-swiper-slide.swiper-container .swiper-button-next {
+    width: 50px;
+    height: 50px;
+  }
+  .naeep-swiper-slide.swiper-container .swiper-button-prev {
+    left: 20px;
+  }
+  .naeep-swiper-slide.swiper-container .swiper-button-next {
+    right: 20px;
+  }
+  .banner-caption h1 {
+    font-size: 30px;
+    line-height: 40px;
+	}
+	.banner-caption p {
+    font-size: 16px;
+    line-height: 28px;
+	}
+	.banner-caption.left-align,
+	.banner-caption.right-align,
+	.banner-caption.center-align {
+	  margin: 0 auto;
+	  text-align: center;
+	}
+}
+@media screen and (max-width:782px) {
+	.banner-container {
+    max-width: 720px;
+	}
+}
+@media screen and (max-width:767px) {
+	.naeep-history-wrap.history-two .naeep-history-item {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.masonry-item,
+	.naeep-process-item,
+	.naeep-masonry[data-items="3"] .masonry-item,
+	.naeep-masonry[data-items="4"] .masonry-item,
+	.masonry-item.one-third,
+	.masonry-item.one-fourth,
+	.masonry-item.one-fourth-two,
+	.masonry-item.one-third-two,
+	.masonry-item.one-half,
+	.masonry-item.one-half-two,
+	.masonry-item.full-width {
+	  width: 100%;
+	}
+	.col-na-1,
+	.col-na-2,
+	.col-na-3,
+	.col-na-4,
+	.col-na-5,
+	.col-na-6,
+	.col-na-7,
+	.col-na-8,
+	.col-na-9,
+	.col-na-10,
+	.col-na-11 {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+	.image-wrap:after {
+		content: none;
+	}
+}
+@media screen and (max-width:600px) {
+	.process-number-item {
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+}
+@media screen and (max-width:599px) {
+	.naeep-swiper-slide.swiper-container .swiper-button-prev,
+  .naeep-swiper-slide.swiper-container .swiper-button-next {
+    display: none;
+  }
+  .banner-container {
+    max-width: 540px;
+    padding: 0 25px;
+	}
+	.venue-info-wrap h3.venue-title,
+	.naeep-venue-item .venue-info-wrap h5 {
+	  font-size: 26px;
+	}
+	.naeep-testimonial-item {
+	  padding: 30px;
+	}
+	.customer-inner-info h4.customer-name {
+	  font-size: 22px;
+	}
+}

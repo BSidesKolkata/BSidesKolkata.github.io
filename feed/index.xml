@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title></title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description></description>
+	<lastBuildDate>Wed, 13 Sep 2023 11:26:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3.1</generator>
+	<item>
+		<title>Hello world!</title>
+		<link>./../2023/09/13/hello-world/index.html</link>
+					<comments>./../2023/09/13/hello-world/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 13 Sep 2023 05:17:22 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=1</guid>
+
+					<description><![CDATA[Next, install the Python 3 interpreter on your computer. This is the program that reads Python programs and carries out their instructions; you need it before you can do any Python programming. Mac and Linux distributions may include an outdated version of Python (Python 2), but you should install an updated one (Python 3). See&#160;BeginnersGuide/Download&#160;for...]]></description>
+										<content:encoded><![CDATA[
+<p>Next, install the Python 3 interpreter on your computer. This is the program that reads Python programs and carries out their instructions; you need it before you can do any Python programming. Mac and Linux distributions may include an outdated version of Python (Python 2), but you should install an updated one (Python 3). See&nbsp;<a href="https://wiki.python.org/moin/BeginnersGuide/Download">BeginnersGuide/Download</a>&nbsp;for instructions to download the correct version of Python.</p>
+
+
+
+<p>There are also Python interpreter and IDE bundles available, such as&nbsp;<a href="http://thonny.org/">Thonny</a>. Other options can be found at&nbsp;<a href="https://wiki.python.org/moin/IntegratedDevelopmentEnvironments">IntegratedDevelopmentEnvironments</a>.</p>
+
+
+
+<p>At some stage, you&#8217;ll want to edit and save your program code. Take a look at&nbsp;<a href="https://wiki.python.org/moin/HowToEditPythonCode">HowToEditPythonCode</a>&nbsp;for some advice and recommendations.</p>
+
+
+
+<h3 class="wp-block-heading has-text-align-center" id="Learning_Python">Learning Python</h3>
+
+
+
+<p>Next, read a tutorial and try some simple experiments with your new Python interpreter.</p>
+
+
+
+<ul>
+<li>If you have never programmed before, see&nbsp;<a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">BeginnersGuide/NonProgrammers</a>&nbsp;for a list of suitable tutorials.</li>
+
+
+
+<li>If you have previous programming experience, consult&nbsp;<a href="https://wiki.python.org/moin/BeginnersGuide/Programmers">BeginnersGuide/Programmers</a>, which lists more advanced tutorials.</li>
+
+
+
+<li>If English isn&#8217;t your first language, you might be more comfortable with a tutorial that&#8217;s been translated into your language. Consult python.org&#8217;s&nbsp;<a href="https://wiki.python.org/moin/Languages">list of Non-English resources</a>.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2023/09/13/hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
