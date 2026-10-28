@@ -7,14 +7,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const events = [
-  { label: "CFP Opens" },
-  { label: "CFP Closes" },
-  { label: "Speaker Announcement" },
+  { label: "CFP Opens", date: "28 Oct 2026" },
+  { label: "CFP Closes", date: "15 Nov 2026" },
+  { label: "Speaker Announcement", date: "23 Nov 2026" },
   { label: "Volunteers Open", date: "08 Dec 2025" },
   { label: "Volunteers Close", date: "23 Dec 2025" },
-  { label: "Registration Starts" },
-  { label: "Event Day 1" },
-  { label: "Event Day 2" },
+  { label: "Registration Starts", date: "05 Nov 2026" },
+  { label: "Event Day 1", date: "04 Dec 2026" },
+  { label: "Event Day 2", date: "05 Dec 2026" },
 ];
 
 function Timeline() {
