@@ -43,10 +43,10 @@ const CFP = () => {
               <span className="font-semibold">CFP opens:</span> 28 October 2026
             </li>
             <li>
-              <span className="font-semibold">CFP closes:</span> 20 November 2026
+              <span className="font-semibold">CFP closes:</span> 15 November 2026
             </li>
             <li>
-              <span className="font-semibold">Speaker announcement:</span> 30
+              <span className="font-semibold">Speaker announcement:</span> 23
               November 2026
             </li>
           </ul>

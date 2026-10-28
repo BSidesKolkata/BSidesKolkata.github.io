@@ -21,8 +21,8 @@ const JoinAsVolunteer = () => {
 
         <div className="w-full flex flex-col items-start">
           <p className="text-white text-opacity-90 font-bold text-sm md:text-lg mb-4">
-            Volunteer registrations will be open from 08th December 2026, 12:00
-            AM IST to 23th December 2026, 11:59 PM IST.
+            Volunteer registrations will be open from 08th December 2025, 12:00
+            AM IST to 23th December 2025, 11:59 PM IST.
           </p>
 
           <p className="text-white text-opacity-90 text-sm md:text-lg">

@@ -32,7 +32,7 @@ const OverView = () => {
   // const targetDate = new Date("February 15, 2025 18:00:00");
 
   useEffect(() => {
-    const targetDate = new Date("March 28, 2026 10:00:00");
+    const targetDate = new Date("December 04, 2026 10:00:00");
     const interval = setInterval(() => {
       const now = new Date();
       const timeDifference = targetDate - now;

@@ -122,13 +122,13 @@ const CoreTeams = () => {
             twitterHandle:
               "https://x.com/Byte_Defender?t=ChYQnMiZ0mzKP5ea3WNfJg&s=09",
           },
-          {
+          {/*
             image: anand,
             text: "Anand Raje",
             desc: "Principal Advisor @BSides Kolkata \nCo-Founder, CTO @India Internet Foundation (IIFON)",
             linkedInHandle:
               "https://www.linkedin.com/in/anandraje/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          },
+          */},
           {
             image: anindo,
             text: "Anindo Ray Mondal",

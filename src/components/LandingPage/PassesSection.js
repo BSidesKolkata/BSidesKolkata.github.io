@@ -91,7 +91,7 @@ const PassesSection = () => {
         >
           <PassesCard
             title="Conference pass"
-            desc="Get ready for an exclusive conference experience at Bsides Kolkata! With the 'Conference Pass', you'll enjoy access to all conference sessions being held on the conference day, i.e. 28-29th December 2025. Immerse yourself in cybersecurity insights, connect with professionals, and advance your journey in this dynamic field. Limited availability! Grab your pass now to secure your spot"
+            desc="Get ready for an exclusive conference experience at Bsides Kolkata! With the 'Conference Pass', you'll enjoy access to all conference sessions being held on the conference day, i.e. 04-05th December 2026. Immerse yourself in cybersecurity insights, connect with professionals, and advance your journey in this dynamic field. Limited availability! Grab your pass now to secure your spot"
             // prize="7000"
           />
         </div>
@@ -104,7 +104,7 @@ const PassesSection = () => {
             desc="Get ready for an exclusive conference experience at Bsides Goa! With the 'Conference Pass', you'll enjoy access to all conference sessions being held ..."
             prize="8000"
           />
-        </div> */}
+        </div> 
         <div
           ref={(el) => (cardRefs.current[2] = el)}
           className="w-full md:w-1/3"
@@ -114,7 +114,7 @@ const PassesSection = () => {
             desc=" Elevate your cybersecurity skills with the Bsides Kolkata 'Training Pass' at XXX INR. Delve into hands-on workshops led by industry experts, offering real-world applications. Stay ahead of trends with a cutting-edge curriculum and gain exclusive access to resources. Earn valuable certifications, fostering credibility in the industry. Engage in an interactive learning environment, fostering collaboration and networking with like-minded professionals. Limited slots available - secure your Training Pass for two day training on 28th & 29th December 2025"
             // prize="38000"
           />
-        </div>
+        </div>*/}
       </div>
     </div>
   );

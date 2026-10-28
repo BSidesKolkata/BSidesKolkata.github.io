@@ -72,7 +72,7 @@ const About = () => {
         valuable opportunity to connect with like-minded individuals and
         collaborate on shaping the future of cybersecurity.{" "}
         <br />
-        Join us at BSides Kolkata 2025 to be part of a growing community
+        Join us at BSides Kolkata 2026 to be part of a growing community
         dedicated to bolstering the digital world through innovation,
         conversation, Networking and cooperation. Together, we are building a
         more secure future.

@@ -259,7 +259,7 @@ const Footer = () => {
       </div>
       <div className="h-[1px] w-full bg-[#E6E6E682] bg-opacity-10 my-10" />
       <p className="text-center text-sm text-[#E6E6E682] ">
-        © 2025 Bside. All Rights Reserved
+        © 2026 Bsides Kolkata. All Rights Reserved
       </p>
     </div>
   );
