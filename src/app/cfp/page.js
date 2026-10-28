@@ -40,14 +40,14 @@ const CFP = () => {
           </p>
           <ul className="text-white text-opacity-90 text-sm md:text-lg mb-2 px-5 md:px-10 list-disc space-y-1">
             <li>
-              <span className="font-semibold">CFP opens:</span> 12 December 2025
+              <span className="font-semibold">CFP opens:</span> 28 October 2026
             </li>
             <li>
-              <span className="font-semibold">CFP closes:</span> 20 January 2026
+              <span className="font-semibold">CFP closes:</span> 20 November 2026
             </li>
             <li>
               <span className="font-semibold">Speaker announcement:</span> 30
-              January 2026
+              November 2026
             </li>
           </ul>
         </div>
@@ -380,17 +380,9 @@ const CFP = () => {
           </p>
           <ul className="text-white text-opacity-90 text-sm md:text-lg mb-3 px-5 md:px-10 list-disc space-y-2">
             <li>Complimentary full conference pass.</li>
+            
             <li>
-              Complimentary accommodation for 2–3 nights during the conference
-              (details will be shared on confirmation).
-            </li>
-            <li>
-              Travel reimbursement up to a capped amount for outstation speakers
-              (cap and process communicated after acceptance).
-            </li>
-            <li>
-              Access to speaker-only networking events and the post-conference
-              party.
+              Access to speaker-only networking events and the post-conference networking.
             </li>
             <li>
               Recognition on the conference website and social media, plus an
@@ -462,11 +454,11 @@ const CFP = () => {
         </div>
 
         {/* CFP button placeholder */}
-        {/* <Link href="https://your-cfp-form-link.com">
+         <Link href="https://forms.gle/2txFTBBNfvkkhFoY7">
           <button className="bg-primarybgimage w-fit text-white text-lg px-9 mb-10 py-2 rounded-xl transition-shadow duration-100 ease-in-out flex items-center justify-center">
             SUBMIT YOUR CFP
           </button>
-        </Link> */}
+        </Link> 
       </div>
     </div>
   );
