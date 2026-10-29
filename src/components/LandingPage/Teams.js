@@ -106,14 +106,14 @@ const CoreTeams = () => {
             instaHandle:
               "https://www.instagram.com/debraj.369?igsh=MWNhZzkwZWFocHdkOQ%3D%3D",
           },
-          {
+          {/*
             image: sayan,
             text: "Sayan Kr Dey",
             desc: "Core Contributor & \nModerator @BSides Kolkata",
             linkedInHandle:
               "https://www.linkedin.com/in/sayan4n6/?trk=feed_main-feed-card_feed-reaction-header",
             twitterHandle: "https://x.com/sayan4n6",
-          },
+          */},
           {
             image: kishan,
             text: "Kishan Acharya",

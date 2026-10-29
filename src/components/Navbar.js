@@ -202,7 +202,7 @@ const Navbar = () => {
           </div>
 
           <Link
-            href="/"
+            href="#schedule"
             className="bg-primarybgimage hidden text-lg md:flex text-white px-6 py-2 rounded-full shadow-primaryshadow transition-shadow duration-100 ease-in-out items-center justify-center"
           >
             Registration will start soon
