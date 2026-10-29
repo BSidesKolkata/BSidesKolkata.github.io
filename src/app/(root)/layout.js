@@ -17,7 +17,7 @@ const protestLight = localFont({
 });
 
 export const metadata = {
-  title: "BSides",
+  title: "BSides Kolkata 2026 - Cybersecurity Conference",
   description:
     "Welcome to BSides Kolkata, Eastern India's largest Security Conference",
   keywords: "Next.js, Tailwind CSS, Heroicons",

@@ -175,12 +175,12 @@ const Navbar = () => {
             >
               Sponsors
             </Link>
-            <Link
+            {/*<Link
               href="/ctf"
               className="text-white text-sm lg:text-base font-medium nav-link"
             >
               CTF
-            </Link>
+            </Link>*/}
              <Link
               href="/cfp"
               className="text-white text-sm lg:text-base font-medium nav-link"
