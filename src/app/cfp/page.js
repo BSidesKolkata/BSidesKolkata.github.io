@@ -390,9 +390,7 @@ const CFP = () => {
             </li>
           </ul>
           <p className="text-white text-opacity-90 text-sm md:text-lg">
-            In case of multiple speakers for a talk, only one speaker will be
-            eligible for travel reimbursement; accommodation may be provided on
-            a shared basis.
+            In case of multiple speakers for a talk, only one speaker might be eligible for travel reimbursement based on availability of funds.
           </p>
         </div>
 
