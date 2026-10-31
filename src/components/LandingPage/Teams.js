@@ -3,13 +3,13 @@
 import React, { useRef, useEffect } from "react";
 import SpeackerCard from "../SpeackerCard";
 import sayantan from "../../assets/teams/Sayantan.png";
-import sayan from "../../assets/teams/sayan.jpg";
+import sayan from "../../assets/teams/sayan.jpeg";
 import debraj from "../../assets/teams/Debraj.png";
 import kishan from "@/assets/teams/volu/kishan.jpg";
 import tamalika from "@/assets/teams/volu/tamalika.jpg";
 import anindo from "@/assets/teams/volu/anindo.jpg";
 import ganesh from "@/assets/teams/volu/ganesh.jpg";
-import anand from "@/assets/teams/anadraj.jpg";
+import skc from "@/assets/teams/SKCsir.jpeg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -122,13 +122,13 @@ const CoreTeams = () => {
             twitterHandle:
               "https://x.com/Byte_Defender?t=ChYQnMiZ0mzKP5ea3WNfJg&s=09",
           },
-          {/*
-            image: anand,
-            text: "Anand Raje",
-            desc: "Principal Advisor @BSides Kolkata \nCo-Founder, CTO @India Internet Foundation (IIFON)",
+          {
+            image: skc,
+            text: "Sabuj K. Chaudhuri",
+            desc: "Advisor @BSides Kolkata \nProfessor & Former Head in DLIS @University of Calcutta",
             linkedInHandle:
-              "https://www.linkedin.com/in/anandraje/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          */},
+              "https://www.linkedin.com/in/sabuj-kumar-chaudhuri-88a6422a1/",
+          },
           {
             image: anindo,
             text: "Anindo Ray Mondal",

@@ -423,6 +423,9 @@ const CFP = () => {
               The organizing team reserves the right to change the schedule,
               request edits, or withdraw an accepted talk in exceptional cases.
             </li>
+            <li>
+              Travel should be borne by ownself, however, the organizers may provide support for selected speakers based on availability of funds.
+            </li>
           </ul>
         </div>
 
