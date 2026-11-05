@@ -60,9 +60,14 @@ const PassesCard = ({ title, desc, prices }) => {
           </span>
         </p>
       </div>
-      <button disabled className="bg-primarybgimage w-full cursor-not-allowed text-white text-lg px-5 py-2 rounded-xl transition-shadow duration-100 ease-in-out flex items-center justify-center">
+      <a
+        href="https://konfhub.com/bsides-kolkata-cyber-security-conference-2026"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-primarybgimage w-full cursor-pointer text-white text-lg px-5 py-2 rounded-xl transition-shadow duration-100 ease-in-out flex items-center justify-center"
+      >
         Register Now
-      </button>
+      </a>
     </div>
   );
 };

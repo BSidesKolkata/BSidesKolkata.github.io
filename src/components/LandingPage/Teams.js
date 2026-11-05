@@ -140,7 +140,7 @@ const CoreTeams = () => {
             image: ganesh,
             text: "Ganesh Shinde",
             desc: "Developer @BSides Kolkata \n SDE @Black Duck",
-            instaHandle: "https://www.instagram.com/itsganeshhere/",
+            instaHandle: "https://www.instagram.com/itsganesh.here/",
             linkedInHandle: "https://www.linkedin.com/in/dev-ganesh-shinde/",
             twitterHandle: "https://x.com/Gani_Shinde",
           },
