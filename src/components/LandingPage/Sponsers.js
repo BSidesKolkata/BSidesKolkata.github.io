@@ -5,23 +5,27 @@ import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import iem from "@/assets/sponsers/iem.png";
+import digi from "@/assets/sponsers/digi.png";
+import cu from "@/assets/sponsers/cu.jpeg";
+import ipr from "@/assets/sponsers/ipr.jpeg";
 import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const sponsorCategories = {
-  // "VENUE PARTNER": [iem],
+  "COLLABORATION WITH": [cu , ipr],
   "SPONSORS": [],
-  "GOLD SPONSOR": [],
+ /* "GOLD SPONSOR": [],
   "SILVER SPONSOR": [],
   "BRONZE SPONSORS": [],
   "SPECIAL SPONSORS": [],
-  "COMMUNITY PARTNERS": [],
+  */
+  "COMMUNITY PARTNERS": [digi],
 };
 
 const Sponsers = () => {
   const [selectedCategory, setSelectedCategory] =
-    useState("SPONSORS");
+    useState("COLLABORATION WITH");
   const scrollerRef = useRef(null);
   const h1SponserRef = useRef(null);
   const imagesContainerRef = useRef(null);

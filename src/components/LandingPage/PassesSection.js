@@ -90,9 +90,15 @@ const PassesSection = () => {
           className="w-full md:w-1/3"
         >
           <PassesCard
-            title="Conference pass"
+            title="Conference Pass"
             desc="Get ready for an exclusive conference experience at Bsides Kolkata! With the 'Conference Pass', you'll enjoy access to all conference sessions being held on the conference day, i.e. 04-05th December 2026. Immerse yourself in cybersecurity insights, connect with professionals, and advance your journey in this dynamic field. Limited availability! Grab your pass now to secure your spot"
-            // prize="7000"
+            prices={{
+              bothDay: {
+                "CU Member": "699/-",
+                "Other Students": "999/-",
+                Professionals: "1299/-",
+              },
+            }}
           />
         </div>
         {/* <div

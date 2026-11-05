@@ -240,6 +240,8 @@ const OverView = () => {
         <Link
           href="https://konfhub.com/bsides-kolkata-cyber-security-conference-2026"
           ref={linkRef}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-primarybgimage text-center self-auto md:self-start h-fit shadow-primaryshadow text-white text-lg px-8 py-3 rounded-full transition-all duration-300 hover:scale-95"
         >
           Register yourself

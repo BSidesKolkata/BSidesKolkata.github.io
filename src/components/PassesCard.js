@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import gsap from "gsap";
 
-const PassesCard = ({ title, desc, prize }) => {
+const PassesCard = ({ title, desc, prices }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const cardRef = useRef(null);
 
@@ -38,15 +38,17 @@ const PassesCard = ({ title, desc, prize }) => {
         <h2 className="text-2xl font-semibold text-white text-opacity-70 mb-3">
           {title}
         </h2>
-        {prize ? (
-          <p className="text-4xl font-medium text-white mb-6">INR {prize}</p>
-        ) : (
-          <>
-            <p className="text-2xl text-start text-white mb-8">
-              Will declare soon
-            </p>
-          </>
-        )}
+        <div className="space-y-2 mb-6 w-full">
+          {Object.entries(prices.bothDay).map(([category, amount]) => (
+            <div
+              key={category}
+              className="flex justify-between text-base text-white text-opacity-80"
+            >
+              <span>{category}</span>
+              <span>INR {amount}</span>
+            </div>
+          ))}
+        </div>
         <p className="text-base text-start text-white text-opacity-70 mb-8">
           {isExpanded ? desc : `${desc.slice(0, 100)}...`}
           <span
