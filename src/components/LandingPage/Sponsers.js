@@ -148,7 +148,7 @@ const Sponsers = () => {
                       key={index}
                       src={image}
                       alt={`${selectedCategory} Sponsor`}
-                      className="w-40 h-40 md:h-auto object-cover rounded-xl"
+                      className="w-auto h-40 md:h-48 max-w-none object-contain rounded-xl"
                     />
                   ))}
                   {/* {sponsorCategories[selectedCategory].map((image, index) => (
