@@ -4,13 +4,13 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import iem from "@/assets/sponsers/iem.png";
+import iem from "@/assets/sponsers/iem.png";
 import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const sponsorCategories = {
-  // "VENUE PARTNER": [iem],
+  "VENUE PARTNER": [iem],
   "SPONSORS": [],
   "GOLD SPONSOR": [],
   "SILVER SPONSOR": [],
@@ -21,7 +21,7 @@ const sponsorCategories = {
 
 const Sponsers = () => {
   const [selectedCategory, setSelectedCategory] =
-    useState("SPONSORS");
+    useState("VENUE PARTNER");
   const scrollerRef = useRef(null);
   const h1SponserRef = useRef(null);
   const imagesContainerRef = useRef(null);
@@ -31,6 +31,7 @@ const Sponsers = () => {
 
   useEffect(() => {
     const imagesContainer = imagesContainerRef.current;
+    if (!imagesContainer) return;
     gsap.set(imagesContainer, { xPercent: 0 });
     const animation = gsap.to(imagesContainer, {
       xPercent: -100,
@@ -137,7 +138,7 @@ const Sponsers = () => {
                 ref={scrollerRef}
                 className="w-full md:w-3/5 h-full flex items-center justify-center m-0 md:m-8 overflow-hidden rounded-3xl"
               >
-                {/* add this for scroller: ref={imagesContainerRef} */}
+                
                 <div className="flex gap-4 w-max py-4">
                   {sponsorCategories[selectedCategory].map((image, index) => (
                     <Image
