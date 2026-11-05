@@ -107,10 +107,10 @@ const HeroSection = () => {
           </p>
           <Link
             ref={buttonRef}
-            href="#schedule"
+            href="https://konfhub.com/bsides-kolkata-cyber-security-conference-2026"
             className="bg-primarybgimage opacity-0 mt-8 text-white text-sm md:text-lg px-5 py-3 rounded-full  shadow-primaryshadow transition-shadow duration-100 ease-in-out flex items-center justify-center"
           >
-            Registration will start soon
+            Register yourself
           </Link>
         </div>
       </div>

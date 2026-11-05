@@ -238,11 +238,11 @@ const OverView = () => {
           </div>
         </div>
         <Link
-          href="/"
+          href="https://konfhub.com/bsides-kolkata-cyber-security-conference-2026"
           ref={linkRef}
           className="bg-primarybgimage text-center self-auto md:self-start h-fit shadow-primaryshadow text-white text-lg px-8 py-3 rounded-full transition-all duration-300 hover:scale-95"
         >
-          Registration Will Start Soon
+          Register yourself
         </Link>
       </div>
     </div>

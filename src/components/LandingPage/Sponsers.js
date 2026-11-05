@@ -195,6 +195,7 @@ const Sponsers = () => {
                       className="w-80 h-40 md:h-auto object-cover rounded-3xl"
                     />
                   ))} */}
+
                 </div>
               </div>
             ) : (
