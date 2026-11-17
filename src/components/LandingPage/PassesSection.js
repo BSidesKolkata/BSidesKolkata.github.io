@@ -95,7 +95,7 @@ const PassesSection = () => {
             prices={{
               bothDay: {
                 "CU Member": "699/-",
-                "Other Students": "999/-",
+                "Other Students": "799/-",
                 Professionals: "1299/-",
               },
             }}

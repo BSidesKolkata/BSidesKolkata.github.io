@@ -1,4 +1,5 @@
 import About from "@/components/LandingPage/About";
+import CFPpanel from "@/components/LandingPage/CFPpanel";
 import HeroSeciton from "@/components/LandingPage/HeroSeciton";
 import KeyNoteSpeakers from "@/components/LandingPage/KeyNoteSpeakers";
 import OurSpeakers from "@/components/LandingPage/OurSpeakers";
@@ -16,6 +17,7 @@ export default function Home() {
       <OverView />
       <Timeline />
       <About />
+      <CFPpanel />
       {/* <KeyNoteSpeakers /> */}
       {/* <OurSpeakers /> */}
       <PassesSection />
