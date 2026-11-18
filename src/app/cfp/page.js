@@ -17,8 +17,12 @@ const CFP = () => {
 
       <div className="flex flex-col items-center text-start">
         <h1 className="text-white font-semibold text-3xl md:text-4xl mb-7 font-[family-name:var(--font-protestG-regular)]">
-          Call for Speakers – BSides Kolkata 2026
+          Call for Papers – BSides Kolkata 2026
         </h1>
+
+        <h2 className="text-[#eb4b19] text-opacity-90 text-lg md:text-xl mb-3">
+          The CFP for 2026 is already closed. Apply next year ! 
+        </h2>
 
         <div className="w-full flex flex-col items-start">
           <p className="text-white text-opacity-90 text-sm md:text-lg">
@@ -454,12 +458,17 @@ const CFP = () => {
           </p>
         </div>
 
-        {/* CFP button placeholder */}
+        {/* CFP button placeholder
          <Link href="https://forms.gle/2txFTBBNfvkkhFoY7">
           <button className="bg-primarybgimage w-fit text-white text-lg px-9 mb-10 py-2 rounded-xl transition-shadow duration-100 ease-in-out flex items-center justify-center">
             SUBMIT YOUR CFP
           </button>
-        </Link> 
+        </Link>  */}
+        <Link href="https://konfhub.com/bsides-kolkata-cyber-security-conference-2026">
+          <button className="bg-primarybgimage w-fit text-white text-lg px-9 mb-10 py-2 rounded-xl transition-shadow duration-100 ease-in-out flex items-center justify-center">
+            Register yourself
+          </button>
+        </Link>
       </div>
     </div>
   );

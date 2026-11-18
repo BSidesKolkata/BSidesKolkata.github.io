@@ -8,6 +8,7 @@ import reviewerPlaceholder from "@/assets/speakers/cfp-reviewer-placeholder.svg"
 import amishra from "@/assets/cfppanel/amishra.jpeg";
 import shyam from "@/assets/cfppanel/shyam.jpg";
 import vray from "@/assets/cfppanel/vray.jpg";
+import rakesh from "@/assets/cfppanel/rakesh.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,14 +33,15 @@ const reviewers = [
     pic: shyam,
     description: "Shyam has contributed to global threat research and security initiatives through roles at Cisco Talos, Cisco Umbrella, and GE Healthcare. A three-time TEDx speaker and author of It's Your Digital Life, he has spoken at leading international cybersecurity conferences, including Black Hat, Cisco Live, Nullcon, and DeepSec. Committed to cybersecurity education, he has conducted 300+ bootcamps and trained law enforcement, security professionals, and aspiring researchers in malware analysis, digital forensics, and threat hunting.",
     linkedInHandle: "https://www.linkedin.com/in/shyam-sundar-k-r-he-him-batman-50204966/",
-  }];
-  {/*
+  },
+  {
     id: "d",
     name: "Rakesh Seal",
-    //pic: rakesh,
-    description: "Rakesh Seal is a seasoned cybersecurity professional with extensive experience in threat analysis and incident response. He has worked with various organizations to develop and implement robust security measures, ensuring compliance and protecting critical assets.",
-    linkedInHandle: "https://www.linkedin.com/in/",
-  */}
+    pic: rakesh,
+    description: "Rakesh Seal is a Senior Software Engineer at Keysight Technologies — building network traffic simulation, applied AI integrations, and AI security systems. IEEE Best Paper Award winner. Conference speaker at Nullcon, c0c0n, ROOTCON, and IEEE SVCC on TLS covert channels, AI agent attacks, and network security.",
+    linkedInHandle: "https://www.linkedin.com/in/rakeshseal0/"
+  }
+  ];
 
 
 const CFPpanel = () => {
