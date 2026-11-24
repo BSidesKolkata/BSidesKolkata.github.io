@@ -5,7 +5,7 @@ import SpeackerCard from "../SpeackerCard";
 import aditya from "@/assets/speakers/tech/Aditya.png";
 import danish2 from "@/assets/speakers/tech/danish2.jpg";
 import harshit from "@/assets/speakers/tech/Harshit.jpeg";
-import rahul from "@/assets/speakers/tech/rahul.jpeg";
+import rahul from "@/assets/speakers/tech/Rahul.jpeg";
 //import adithya from "@/assets/speakers/tech/aditya.jpg";
 //import mouty from "@/assets/speakers/tech/mounty.jpg";
 //import amit from "@/assets/speakers/tech/amit.jpg";
