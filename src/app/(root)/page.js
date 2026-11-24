@@ -19,7 +19,7 @@ export default function Home() {
       <About />
       <CFPpanel />
       {/* <KeyNoteSpeakers /> */}
-      {/* <OurSpeakers /> */}
+       <OurSpeakers /> 
       <PassesSection />
       <Sponsers />
       <CoreTeams />

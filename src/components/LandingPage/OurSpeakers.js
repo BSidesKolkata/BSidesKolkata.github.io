@@ -2,16 +2,13 @@
 
 import React, { useRef, useEffect } from "react";
 import SpeackerCard from "../SpeackerCard";
-import ravi from "@/assets/speakers/tech/ravi.jpg";
-import adhoka from "@/assets/speakers/tech/adhoksha.jpg";
-import soumyadeep from "@/assets/speakers/tech/soumyadeep.jpg";
-import archan from "@/assets/speakers/tech/archan.jpg";
-import deepak from "@/assets/speakers/keynote/deepak.jpg";
-import rishika from "@/assets/speakers/tech/rishika.jpg";
-import gaurav from "@/assets/speakers/tech/gaurav.jpg";
-import adithya from "@/assets/speakers/tech/aditya.jpg";
-import mouty from "@/assets/speakers/tech/mounty.jpg";
-import amit from "@/assets/speakers/tech/amit.jpg";
+import aditya from "@/assets/speakers/tech/Aditya.png";
+import danish2 from "@/assets/speakers/tech/danish2.jpg";
+import harshit from "@/assets/speakers/tech/Harshit.jpeg";
+import rahul from "@/assets/speakers/tech/rahul.jpeg";
+//import adithya from "@/assets/speakers/tech/aditya.jpg";
+//import mouty from "@/assets/speakers/tech/mounty.jpg";
+//import amit from "@/assets/speakers/tech/amit.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -27,7 +24,7 @@ const OurSpeakers = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: h1Ref.current,
-        start: "top 80%",
+        start: "top 90%",
         toggleActions: "play none none none",
         scrub: 1,
       },
@@ -58,7 +55,7 @@ const OurSpeakers = () => {
           delay: index * 0.1, // Delay between each card
           scrollTrigger: {
             trigger: card,
-            start: "top 90%",
+            start: "top 95%",
             scrub: 1,
             toggleActions: "play none none none",
           },
@@ -72,12 +69,12 @@ const OurSpeakers = () => {
       { scale: 0.8, opacity: 0 },
       {
         scale: 1,
-        opacity: 1,
+        opacity: 0,
         duration: 0.8,
         ease: "power3.out",
         scrollTrigger: {
           trigger: linkRef.current,
-          start: "top 95%",
+          start: "top 98%",
           toggleActions: "play none none none",
           scrub: 1,
         },
@@ -103,45 +100,38 @@ const OurSpeakers = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-14 my-10 w-full">
         {[
           {
-            image: deepak,
-            text: "Dr. Deepak Kumar (D3)",
-            desc: "Sr Cyber Intelligence & \nForensics Expert, India",
+            image: harshit,
+            text: "HARSHIT GUPTA",
+            desc: "Senior Product Security Engineer (Better World Technology Pvt.LTD.)",
             linkedInHandle:
-              "https://www.linkedin.com/in/d3pak?trk=blended-typeahead",
+              "https://www.linkedin.com/in/iam-harshit-gupta/",
           },
           {
-            image: ravi,
-            text: "Ravi Rajput",
-            desc: "Manager @Exela Technologies",
+            image: rahul,
+            text: "Rahul Mishra",
+            desc: "Security Researcher (Detection and Threat Research) @Quickheal Technologies",
             linkedInHandle:
-              "https://www.linkedin.com/in/frustratedresearcher?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+              "https://linkedin.com/in/rivian96",
           },
           {
-            image: adhoka,
-            text: "Adhokshaj Mishra",
-            desc: "Security Research Lead @QuickHeal",
+            image: danish2,
+            text: "Mohammed Danish Amber",
+            desc: "Project Manager @Cognizant",
             linkedInHandle:
-              "https://www.linkedin.com/in/adhokshajmishra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+              "https://www.linkedin.com/in/mohammed-danish-amber/",
           },
           {
-            image: soumyadeep,
-            text: "Soumyadeep Basu",
-            desc: "Senior Security Engineer @GoDaddy",
+            image: aditya,
+            text: "Aditya Goswami",
+            desc: "IT Security Analyst - ll @TD Williamson India Pvt.Ltd.",
             linkedInHandle:
-              "https://www.linkedin.com/in/soumyadeep-bas?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+              "https://www.linkedin.com/in/aditya-k-goswami/",
           },
-          {
-            image: archan,
-            text: "Archan Choudhury",
-            desc: "CEO @BlackPerl DFIR",
-            linkedInHandle:
-              "https://www.linkedin.com/in/archan-choudhury-b4a719b7?trk=blended-typeahead",
-          },
-          {
-            image: rishika,
-            text: "Rishika Desai",
-            desc: "Threat Researcher @BforeAI",
-            linkedInHandle: "https://www.linkedin.com/in/rishika-d-61a765159",
+          {/*
+           image: arka,
+            text: "Arkaprabha Chakraborty",
+            desc: "Senior Engineer @Qualcomm",
+            linkedInHandle: "https://www.linkedin.com/in/gauvbatra",
           },
           {
             image: gaurav,
@@ -150,29 +140,36 @@ const OurSpeakers = () => {
             linkedInHandle: "https://www.linkedin.com/in/gauvbatra",
           },
           {
-            image: adithya,
-            text: "Aditya Shende",
-            desc: "Threat Researcher @BforeAI || Bugcrowd Top 100",
-            linkedInHandle: "https://www.linkedin.com/in/kongsec?originalSubdomain=in",
+            image: gaurav,
+            text: "Gaurav Batra",
+            desc: "Founder & CEO @CyberFrat",
+            linkedInHandle: "https://www.linkedin.com/in/gauvbatra",
           },
           {
-            image: mouty,
-            text: "Monty Shyama",
-            desc: "Lead Threat Detection Engineer @CRED",
-            linkedInHandle: "https://www.linkedin.com/in/montyshyama?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            image: gaurav,
+            text: "Gaurav Batra",
+            desc: "Founder & CEO @CyberFrat",
+            linkedInHandle: "https://www.linkedin.com/in/gauvbatra",
+          },
+          {
+           image: gaurav,
+            text: "Gaurav Batra",
+            desc: "Founder & CEO @CyberFrat",
+            linkedInHandle: "https://www.linkedin.com/in/gauvbatra",
           },
           {
             image: amit,
             text: "Amit Dubey",
             desc: "Author, Cyber Security Evangelist, TEDx Speaker",
             linkedInHandle: "https://www.linkedin.com/in/amitdubey77?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-          },
+          */},
         ].map((speaker, index) => (
           <div key={index} ref={(el) => (cardRefs.current[index] = el)}>
             <SpeackerCard
               imagePath={speaker.image}
               text={speaker.text}
               desc={speaker.desc}
+              isAnnounced
               {...(speaker.linkedInHandle && {
                 linkedInHandle: speaker.linkedInHandle,
               })}
