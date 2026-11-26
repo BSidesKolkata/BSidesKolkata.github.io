@@ -5,6 +5,8 @@ import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import iem from "@/assets/sponsers/iem.png";
+import gdg from "@/assets/sponsers/GDGwhite.png";
+//import gdgb from "@/assets/sponsers/GDGblack.png";
 import digi from "@/assets/sponsers/digi.png";
 import cu from "@/assets/sponsers/cu.jpeg";
 import ipr from "@/assets/sponsers/ipr.jpeg";
@@ -20,7 +22,7 @@ const sponsorCategories = {
   "BRONZE SPONSORS": [],
   "SPECIAL SPONSORS": [],
   */
-  "COMMUNITY PARTNERS": [digi],
+  "COMMUNITY PARTNERS": [digi , gdg],
 };
 
 const Sponsers = () => {
@@ -148,7 +150,11 @@ const Sponsers = () => {
                       key={index}
                       src={image}
                       alt={`${selectedCategory} Sponsor`}
-                      className="w-auto h-40 md:h-48 max-w-none object-contain rounded-xl"
+                      className={`shrink-0 object-contain rounded-xl ${
+                        image === gdg || image === gdgb
+                          ? "w-48 md:w-56 h-auto max-w-full"
+                          : "w-auto h-40 md:h-48 max-w-none"
+                      }`}
                     />
                   ))}
                   {/* {sponsorCategories[selectedCategory].map((image, index) => (

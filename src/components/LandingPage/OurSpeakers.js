@@ -7,7 +7,9 @@ import danish2 from "@/assets/speakers/tech/danish2.jpg";
 import harshit from "@/assets/speakers/tech/Harshit.jpeg";
 import rahul from "@/assets/speakers/tech/Rahul.jpeg";
 import rajdeep from "@/assets/speakers/tech/Rajdeep.png";
-//import mouty from "@/assets/speakers/tech/mounty.jpg";
+import kumarA from "@/assets/speakers/tech/KumarA.jpg";
+import aditi from "@/assets/speakers/tech/Aditi.jpg";
+import arka from "@/assets/speakers/tech/Arka.jpg";
 //import amit from "@/assets/speakers/tech/amit.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -134,13 +136,25 @@ const OurSpeakers = () => {
             linkedInHandle:
               "https://www.linkedin.com/in/rajdeep-das-b60939229/",
           },
-          {/*
+          {
+           image: aditi,
+            text: "Aditi Sharma",
+            desc: "R&D Engineer, @Keysight Technologies",
+            linkedInHandle: "https://www.linkedin.com/in/aditi-sharma-21053444b",
+          },
+          {
+           image: kumarA,
+            text: "Kumar Aditya",
+            desc: "R&D Engineer, @Keysight Technologies (ATI)",
+            linkedInHandle: "https://www.linkedin.com/in/kumar-aditya-0ab61b234/",
+          },
+          {
            image: arka,
             text: "Arkaprabha Chakraborty",
             desc: "Senior Engineer @Qualcomm",
             linkedInHandle: "https://www.linkedin.com/in/arkaprabhachakraborty/",
           },
-          {
+          {/*
             image: gaurav,
             text: "Gaurav Batra",
             desc: "Founder & CEO @CyberFrat",
