@@ -6,7 +6,7 @@ import aditya from "@/assets/speakers/tech/Aditya.png";
 import danish2 from "@/assets/speakers/tech/danish2.jpg";
 import harshit from "@/assets/speakers/tech/Harshit.jpeg";
 import rahul from "@/assets/speakers/tech/Rahul.jpeg";
-//import adithya from "@/assets/speakers/tech/aditya.jpg";
+import rajdeep from "@/assets/speakers/tech/Rajdeep.png";
 //import mouty from "@/assets/speakers/tech/mounty.jpg";
 //import amit from "@/assets/speakers/tech/amit.jpg";
 import gsap from "gsap";
@@ -127,11 +127,18 @@ const OurSpeakers = () => {
             linkedInHandle:
               "https://www.linkedin.com/in/aditya-k-goswami/",
           },
+          {
+            image: rajdeep,
+            text: "Rajdeep Das",
+            desc: "Research Fellow, @IEM-UEM Kolkata",
+            linkedInHandle:
+              "https://www.linkedin.com/in/rajdeep-das-b60939229/",
+          },
           {/*
            image: arka,
             text: "Arkaprabha Chakraborty",
             desc: "Senior Engineer @Qualcomm",
-            linkedInHandle: "https://www.linkedin.com/in/gauvbatra",
+            linkedInHandle: "https://www.linkedin.com/in/arkaprabhachakraborty/",
           },
           {
             image: gaurav,
