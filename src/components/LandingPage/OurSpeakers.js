@@ -85,7 +85,10 @@ const OurSpeakers = () => {
   }, []);
 
   return (
-    <div className="h-auto px-5 md:px-14 lg:px-28 py-14 flex flex-col items-center text-center">
+    <div
+      id="technical-speakers"
+      className="h-auto px-5 md:px-14 lg:px-28 py-14 flex flex-col items-center text-center"
+    >
       <h1
         ref={h1Ref}
         className="text-4xl text-white font-semibold mb-3 font-[family-name:var(--font-protestG-regular)]"

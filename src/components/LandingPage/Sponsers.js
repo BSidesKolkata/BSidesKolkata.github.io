@@ -151,7 +151,7 @@ const Sponsers = () => {
                       src={image}
                       alt={`${selectedCategory} Sponsor`}
                       className={`shrink-0 object-contain rounded-xl ${
-                        image === gdg || image === gdgb
+                        image === gdg 
                           ? "w-48 md:w-56 h-auto max-w-full"
                           : "w-auto h-40 md:h-48 max-w-none"
                       }`}

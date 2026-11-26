@@ -96,7 +96,7 @@ const CFPpanel = () => {
         ref={headingRef}
         className="text-4xl text-white font-semibold mb-3 font-[family-name:var(--font-protestG-regular)]"
       >
-        Call for Papers <span className="text-[#eb4b19]">Review Panel</span>
+        CFP <span className="text-[#eb4b19]">Review Panel</span>
       </h2>
       <p className="text-[#e6e6e682]">
         Meet the reviewers helping shape this year&apos;s program.

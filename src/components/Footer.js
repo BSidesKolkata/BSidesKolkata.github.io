@@ -204,6 +204,12 @@ const Footer = () => {
             Sponsors
           </Link>
           <Link
+              href="/cfp"
+              className="text-sm text-[#E6E6E682] footer-text"
+            >
+              CFP
+            </Link>
+          <Link
             href="#speakers"
             className="text-sm text-[#E6E6E682] footer-text"
           >

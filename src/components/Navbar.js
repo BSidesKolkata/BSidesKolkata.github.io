@@ -175,18 +175,24 @@ const Navbar = () => {
             >
               Sponsors
             </Link>
+            <Link
+              href="/#technical-speakers"
+              className="text-white text-sm lg:text-base font-medium nav-link"
+            >
+              Speakers
+            </Link>
             {/*<Link
               href="/ctf"
               className="text-white text-sm lg:text-base font-medium nav-link"
             >
               CTF
-            </Link>*/}
+            </Link>
              <Link
               href="/cfp"
               className="text-white text-sm lg:text-base font-medium nav-link"
             >
               CFP
-            </Link>
+            </Link> */}
             {/* <Link
               href="/village"
               className="text-white text-sm lg:text-base font-medium nav-link"
@@ -283,6 +289,13 @@ const Navbar = () => {
             Sponsors
           </Link>
           <Link
+            href="/#technical-speakers"
+            className="text-white text-base font-medium nav-link"
+            onClick={() => setIsSidebarOpen(false)}
+          >
+            Speakers
+          </Link>
+          {/*<Link
             href="/ctf"
             className="text-white text-base font-medium nav-link"
             onClick={() => setIsSidebarOpen(false)}
@@ -295,7 +308,7 @@ const Navbar = () => {
             onClick={() => setIsSidebarOpen(false)}
           >
             CFP
-          </Link>
+          </Link> */}
           {/* <Link
               href="/village"
               className="text-white text-sm lg:text-base font-medium nav-link"
