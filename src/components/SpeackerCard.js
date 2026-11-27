@@ -10,6 +10,7 @@ const SpeackerCard = ({
   imagePath,
   text,
   desc,
+  topic,
   linkedInHandle,
   faceBookhandle,
   twitterHandle,
@@ -50,6 +51,21 @@ const SpeackerCard = ({
         >
           {desc}
         </p>
+
+        {topic && (
+          <div
+            className={`mt-4 w-full max-w-sm border-t border-[#eb4b19]/50 pt-3 ${
+              !isAnnounced ? "blur-sm pointer-events-none select-none" : ""
+            }`}
+          >
+            <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#eb4b19]">
+              Talk topic
+            </p>
+            <p className="rounded-lg border border-[#eb4b19]/25 bg-[#eb4b19]/10 px-3 py-2 text-sm font-bold leading-6 text-orange-100 shadow-[0_0_18px_rgba(235,75,25,0.12)]">
+              {topic}
+            </p>
+          </div>
+        )}
 
         <div className="flex items-center gap-2 mt-2">
           {linkedInHandle && (

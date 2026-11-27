@@ -107,7 +107,8 @@ const OurSpeakers = () => {
           {
             image: harshit,
             text: "HARSHIT GUPTA",
-            desc: "Senior Product Security Engineer (Better World Technology Pvt.LTD.)",
+            desc: "Senior Product Security Engineer @Better World Technology Pvt.Ltd.",
+            topic: "One IDOR, Twenty-Six Siblings: Hunting Authorization Bugs as Families, Not Findings",
             linkedInHandle:
               "https://www.linkedin.com/in/iam-harshit-gupta/",
           },
@@ -115,6 +116,7 @@ const OurSpeakers = () => {
             image: rahul,
             text: "Rahul Mishra",
             desc: "Security Researcher (Detection and Threat Research) @Quickheal Technologies",
+            topic: "It Hides When You Look: Reverse Engineering a Python Malware Kit That Mines Crypto and Steals Data",
             linkedInHandle:
               "https://linkedin.com/in/rivian96",
           },
@@ -122,6 +124,7 @@ const OurSpeakers = () => {
             image: danish2,
             text: "Mohammed Danish Amber",
             desc: "Project Manager @Cognizant",
+            topic: "Did Your SOC See the Agent Go Rogue?",
             linkedInHandle:
               "https://www.linkedin.com/in/mohammed-danish-amber/",
           },
@@ -129,6 +132,7 @@ const OurSpeakers = () => {
             image: aditya,
             text: "Aditya Goswami",
             desc: "IT Security Analyst - ll @TD Williamson India Pvt.Ltd.",
+            topic: "Temporal Regression Testing of Stateful SIEM Correlation Logic Through Deterministic Event Replay",
             linkedInHandle:
               "https://www.linkedin.com/in/aditya-k-goswami/",
           },
@@ -136,6 +140,7 @@ const OurSpeakers = () => {
             image: rajdeep,
             text: "Rajdeep Das",
             desc: "Research Fellow, @IEM-UEM Kolkata",
+            topic: "From Broken Signatures to Quantum-Resilient DNS: Inside ABHED",
             linkedInHandle:
               "https://www.linkedin.com/in/rajdeep-das-b60939229/",
           },
@@ -143,18 +148,21 @@ const OurSpeakers = () => {
            image: aditi,
             text: "Aditi Sharma",
             desc: "R&D Engineer, @Keysight Technologies",
+            topic: "The Decoder Gap: Exploiting Preprocessing Differentials in Multimodal Multi-Agent Systems",
             linkedInHandle: "https://www.linkedin.com/in/aditi-sharma-21053444b",
           },
           {
            image: kumarA,
             text: "Kumar Aditya",
             desc: "R&D Engineer, @Keysight Technologies (ATI)",
+            topic: "The Decoder Gap: Exploiting Preprocessing Differentials in Multimodal Multi-Agent Systems",
             linkedInHandle: "https://www.linkedin.com/in/kumar-aditya-0ab61b234/",
           },
           {
            image: arka,
             text: "Arkaprabha Chakraborty",
             desc: "Senior Engineer @Qualcomm",
+            topic: "Decision Intelligence guided fuzzing for uncovering vulnerabilities at scale",
             linkedInHandle: "https://www.linkedin.com/in/arkaprabhachakraborty/",
           },
           {/*
@@ -193,6 +201,7 @@ const OurSpeakers = () => {
               imagePath={speaker.image}
               text={speaker.text}
               desc={speaker.desc}
+              topic={speaker.topic}
               isAnnounced
               {...(speaker.linkedInHandle && {
                 linkedInHandle: speaker.linkedInHandle,
