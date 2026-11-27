@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import iem from "@/assets/sponsers/iem.png";
 import gdg from "@/assets/sponsers/GDGwhite.png";
 //import gdgb from "@/assets/sponsers/GDGblack.png";
+import aiclub from "@/assets/sponsers/AI_Club.jpg";
 import digi from "@/assets/sponsers/digi.png";
 import cu from "@/assets/sponsers/cu.jpeg";
 import ipr from "@/assets/sponsers/ipr.jpeg";
@@ -22,7 +23,7 @@ const sponsorCategories = {
   "BRONZE SPONSORS": [],
   "SPECIAL SPONSORS": [],
   */
-  "COMMUNITY PARTNERS": [digi , gdg],
+  "COMMUNITY PARTNERS": [digi , gdg, aiclub],
 };
 
 const Sponsers = () => {

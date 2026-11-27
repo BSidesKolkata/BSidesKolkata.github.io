@@ -102,7 +102,7 @@ const HeroSection = () => {
             ref={textRef}
             className="text-white text-base md:text-2xl opacity-0 text-center"
           >
-             Place &#38; Date: University of Calcutta | Dec 04th &#38; 05th, 2026 
+             Place &#38; Date: Kadambini Hall, University of Calcutta | Dec 04th &#38; 05th, 2026 
             
           </p>
           <Link
